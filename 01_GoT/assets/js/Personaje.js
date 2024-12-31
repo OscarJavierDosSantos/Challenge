@@ -58,8 +58,8 @@ template +=`
               template +=`
               </ul>
               <div class="character__actions">
-                <button class="character__action btn" data-speak="${i}" >habla</button>
-                <button class="character__action btn" data-dead="${i}" >muere</button>
+                <button class="character__action btn" data-speak="${i}" >Coletilla</button>
+                <button class="character__action btn" data-dead="${i}" >Muerte</button>
               </div>
             </div>
           </div>

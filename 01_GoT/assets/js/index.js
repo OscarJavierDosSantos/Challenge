@@ -20,7 +20,8 @@ for (let i = 0; i < button.length; i++) {
 }
 
 function hanlerClick(event){
-    if(event.target.textContent === 'habla'){
+
+    if(event.target.attributes["data-speak"] != undefined){
         let numberHablar = event.target.attributes["data-speak"].value;
         sectionComunications.classList
         const template = `<div class="comunications__grid">
