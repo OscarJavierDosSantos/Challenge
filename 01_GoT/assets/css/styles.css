@@ -2,6 +2,9 @@ body {
   background-color: #b9540c;
   overflow: hidden;
 }
+.btn:hover{
+  background-color: #fff;
+}
 .characters-list {
   flex-wrap: nowrap;
   max-width: 100%;
